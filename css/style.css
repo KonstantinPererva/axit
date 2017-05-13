@@ -1,0 +1,544 @@
+body{
+  margin:0;
+  font-family:'Open Sans',sans-serif;
+}
+/*____________navbar________________
+====================================*/
+.navbar-collapse ul li a{
+  padding-left: 17px;
+  padding-right: 17px;
+}
+a,
+button,
+[role="button"]{
+  transition: .3s;
+}
+/*____________header________________
+====================================*/
+.header{
+  min-height: 713px;
+  background: url(../images/bg_header.jpg) no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+.header .row{
+  margin-top: 180px;
+}
+h1, .h1{
+  font-family: 'Raleway', sans-serif;
+}
+.tagline{
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 33px;
+}
+.horizontal-line-white:after,
+.horizontal-line-orang:after,
+.horizontal-line-white-center:after,
+.horizontal-line-orang-center:after{
+  content: '';
+  display: block;
+  width: 64px; 
+}
+.horizontal-line-white:after,
+.horizontal-line-white-center:after{
+  border-top: 2px solid #fff;
+  margin: 35px 0;
+}
+.horizontal-line-orang:after,
+.horizontal-line-orang-center:after{
+  border-top: 2px solid #ff8b38;
+  margin: 26px 0;
+}
+.horizontal-line-white-center:after,
+.horizontal-line-orang-center:after{
+  margin: 26px auto;
+}
+.header-small{
+  display: block;
+  max-width: 520px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  margin: 0 0 47px;
+}
+.btn-transparent{
+  background: transparent;
+  border: 2px solid;
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 30px;
+  border-radius: 0;
+}
+.btn-transparent:hover,
+.btn-transparent:active,
+.btn-transparent:focus{
+  outline: none;
+  color: #ccc;
+  background: rgba(255,255,255,.2);
+}
+.header .panel{
+  min-width: 360px;
+  border:0;
+}
+.header .panel-heading,
+.header .panel-footer{
+  line-height: 54px;
+  border:0;
+  padding: 0;
+}
+.header .panel-heading{
+  background: #f5f5f5;
+}
+.text-orange{
+  color: #ff8b38;
+}
+.header .panel-footer{
+  color: #fff;
+  background: #ff9b51;
+}
+.header .panel-footer:hover{
+  background: #fc7512;
+  cursor: pointer;
+}
+.login-form{
+  max-width: 285px;
+  margin-bottom: 48px;
+}
+input,
+textarea{
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #d6d6d6;
+  text-indent: 13px;
+}
+.login-form input{
+  height: 30px;
+  margin-top: 30px;
+}
+textarea:focus,
+textarea:active,
+input:focus,
+input:active{
+  outline: none;
+}
+.success{
+  box-shadow: 0 0 7px green;
+}
+.error{
+  box-shadow: 0 0 7px red;
+}
+/*____________socialMedia___________
+====================================*/
+main>section:not(:first-child){
+  padding: 105px 0;
+}
+h2,.h1{
+  margin-top: 0;
+}
+.socialMedia{
+  min-height: 105px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.38);
+}
+.social-media{
+  padding: 17px 15px 10px; 
+}
+.socialMedia .description{
+  color: #86878b;
+}
+.icn-social a{
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  color: #ccc;
+  font-size: 48px;
+  line-height: 105px;
+  margin-left: 30px;
+}
+.icn-social a:hover{
+  color: #333;
+}
+.text-20-b{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+/*____________my-tab_________________
+====================================*/
+.bg-grey{
+  background: #f5f5f5;
+}
+.my-tab{ 
+  margin-top: 2px; 
+}
+.my-tab .row{
+  padding: 40px 0;
+}
+.my-tab ul{
+  width: 110px;
+}
+.my-tab ul li:first-child{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.my-tab ul li:last-child{
+  border-radius: 0 0 3px 3px;
+  overflow: hidden;
+}
+.my-tab li a{
+  width: 110px;
+  height: 110px;
+  border-radius: 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 110px;
+  padding: 0;
+}
+.nav-pills > li > a:hover{
+  background: #ff8b38;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+  background: #ff8b38;
+  color: #fff;
+  outline: none;
+}
+.my-tab img{
+  margin-top: 24px;
+}
+.my-tab .tab-content .text-20-b{
+  color: #000;
+  margin-bottom: 55px;
+}
+.tab-pane>p{
+  margin-bottom: 25px;
+}
+.btn-orange{
+  margin-top: 25px;
+  padding: 13px 24px;
+  background: #ff8b38;
+  box-shadow: 0 1px 1px 1px #c7c7c7;
+  color: #fff;
+}
+.btn-orange:hover,
+.btn-orange:active,
+.btn-orange:focus{
+  background: #fc7512;
+  color: #333;
+  outline: none;
+}
+/*____________media-box_______________
+====================================*/
+.media-box img{
+  margin-top: 20px;
+  box-shadow: 0 5px 10px #bdbdbd;
+}
+.media-box .text-20-b{
+  color: #212121;
+}
+.circle-box{
+  width: 40px;
+  height: 40px;
+  border: 2px solid;
+  text-align: center;
+  line-height: 40px;
+  color: #ff8b38;
+  font-size: 16px; 
+  border-radius: 50%;
+}
+.media-box~p{
+  margin-bottom: 30px;
+}
+.title{
+  margin-top: 35px;
+}
+.title h5{
+  color: #212121;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+/*____________awesome________________
+====================================*/
+main>section>.h1{
+  color: #212121;
+}
+main>section>p{
+  margin-bottom: 80px;
+}
+.awesome .circle-box{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 32px;
+}
+.awesome .text-20-b{
+  margin: 25px 0;
+}
+/*____________pricing________________
+====================================*/
+.pricing .col-md-4{
+  width: 33%;
+  float: none;
+  display:inline-block;
+  vertical-align:bottom;
+}
+.tariff{
+  max-width: 343px;
+  min-width: 290px;
+}
+.tariff-name{
+  height: 59px;
+  line-height: 59px;
+  margin-bottom: 1px;
+}
+.tariff-name,
+.price,
+.duration{
+  background: #333;
+}
+.tariff-name,
+.price,
+.popular{
+  color: #fff;
+}
+.price{
+  font-size: 94px;
+}
+.dollar{
+  font-size: 35px;
+}
+.duration{
+  color: #999;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.popular{
+  background: #ff8b38;
+}
+.tariff-basic>.popular,
+.tariff-enterprise>.popular{
+  height: 5px;
+}
+.tariff-professional>.popular{
+  height: 40px;
+  line-height: 40px;
+}
+.tariff-description li{
+  height: 40px;
+  background: #fff;
+  line-height: 40px;
+  margin-top: 1px;
+}
+/*____________clients________________
+====================================*/
+.reference{
+  width: 273px;
+}
+.quote{
+  font-style: italic;
+  border-radius: 3px;
+  line-height: 17px;
+  position: relative;
+  padding: 20px 10px 25px;
+  margin-bottom: 23px;
+}
+.quote:after{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 15px;
+  border-top: 15px solid #f5f5f5;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 24px;
+}
+.customer{
+  margin: 10px 0 0 -15px;
+}
+/*____________design________________
+====================================*/
+main section.design{
+  min-height: 280px;
+  background: url(../images/bg_footer.jpg) no-repeat;
+  background-size: cover;
+  padding: 75px 0;
+}
+.design .h1,
+.design>p{
+  color: #fff;
+}
+.design>p{
+  margin-bottom: 33px;
+  font-size: 16px;
+}
+/*____________contact________________
+====================================*/
+.feedback{
+  margin-bottom: 10px;
+}
+.feedback input{
+  margin-bottom: 30px;
+}
+.feedback textarea{
+  height: 129px;
+  resize: none;
+}
+.feedback input,
+.feedback textarea{
+  max-width: 527px;
+}
+/*____________footer________________
+====================================*/
+.footer{
+  background: #000;
+  padding: 20px 0 10px;
+}
+.footer .icn-social{
+  margin-bottom: 10px;
+}
+.footer .icn-social a{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #ccc;
+  margin: 0 10px 10px 0;
+}
+.footer .icn-social a:last-child{
+  margin-right: 0;
+}
+.footer .icn-social a:hover{
+  background: #ccc;
+  color: #000;
+}
+.copy{
+  color: #808080;
+}
+/*____________@madia________________
+====================================*/
+/*____________width:1200____________*/
+@media screen and (max-width:1200px){
+  .icn-social a{
+    margin-left: 10px;
+  }
+  .media-content-right{
+    padding-left: 50px;
+  }
+  .media-content-left{
+    padding-right: 50px;
+  }
+  form.feedback{
+    text-align: center;
+  }
+  .feedback textarea{
+    float: none !important;
+  }
+}
+/*____________width:992____________*/
+@media screen and (max-width:992px){
+  .header{
+    text-align: center;
+  }
+  .header .row{
+    margin-top: 110px;
+  }
+  .horizontal-line-white:after{
+    margin: 35px auto;
+  }
+  .header-small{
+    margin:0 auto 47px
+  }
+  .header .panel{
+    float: none !important;
+    min-width: 260px;
+    max-width: 360px;
+    margin: 0 auto 40px;
+  }
+  .header .btn-transparent{
+    margin-bottom: 40px;
+  }
+  main>section:not(:first-child){
+    padding: 50px 0;
+  }
+  main>section>p{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+  }
+  .socialMedia{
+    text-align: center;
+  }
+  .tab-content{
+    padding-left: 40px;
+  }
+  .media-box{
+    text-align: center;
+  }
+  .media-content-right,
+  .media-content-left{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .media-box img{
+    float: none !important;
+    margin: 40px auto 0;
+  }
+  .horizontal-line-orang:after{
+    margin: 26px auto;
+  }
+  .advantages{
+    max-width: 500px;
+    margin:0 auto 50px;
+  }
+  .advantages:last-child{
+    margin:0 auto;
+  }
+  main>section.pricing{
+    padding: 50px 0 10px;
+  }
+  .pricing .col-md-4{
+    display: block;
+    width: 100%;
+  }
+  .tariff{
+    margin: 0 auto 40px;
+  }
+  main>section.clients{
+    padding: 50px 0 0 0;
+  }
+  .reference{
+    margin-bottom: 50px;
+  }
+}
+/*____________width:599____________*/
+@media screen and (max-width:599px){
+  .my-tab{
+    display: none;
+  }  
+}
+/*____________width:360____________*/
+@media screen and (max-width:360px){
+  .media-box .circle-box{
+    float: none !important;
+    margin-right: -15px;
+  }
+  .tariff{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .footer .icn-social a{
+    margin: 0 3px 5px 0;
+  }
+}
+/*____________width:320____________*/
+@media screen and (max-width:320px){
+  .footer .icn-social a{
+    margin: 0;
+  } 
+}
