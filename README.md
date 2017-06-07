@@ -1,3 +1,3 @@
 Адаптивная верстка лендинга, PSD макет взят из интернета для тренировки
 
-Использовал: HTML5/CSS3, Bootstrap 3, jQuery
+Применил: HTML5/CSS3, Bootstrap 3, jQuery
